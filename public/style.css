@@ -1,5 +1,5 @@
 @import "compass/css3";
-.zoom img {
+.zoom-img {
   width: 200px;
   height: 200px;
   -webkit-transition: all 2s ease;
@@ -9,31 +9,57 @@
    transition: all 2s ease;
 }
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+body {
+    font-family: 'Comic Sans MS' !important;
+    margin: 0px;
+    color: #A5AE14 !important;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
+.banana {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.for-scale {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main {
+    text-align: center;
+    margin: 10%;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+.for-scale {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    background-color: #FFF485;
+}
+
+.button {
+    background-color: #B8E986 !important;
+    font-family: "Roboto Mono";
+    max-width: 100%;
+}
+
+model-viewer {
+    max-width: 100%;
+}
+
+.main > p {
+    font-size: 1.2rem;
+    margin-top: 5%;
 }
