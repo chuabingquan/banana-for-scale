@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', 'Marker Felt', !important;
+    font-family: 'Comic Sans MS', 'Marker Felt' !important;
     margin: 0px;
     color: #A5AE14 !important;
 }
@@ -47,6 +47,10 @@ img {
     padding-right: 7%;
     padding-bottom: 7%;
     background-color: #FFF485;
+    width: 100vw;
+    height: 20vh;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 60%;
 }
 
 .button {
